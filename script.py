@@ -1,9 +1,12 @@
 import mysql.connector
+from dotenv import load_dotenv
+
+load_dotenv()
 
 host = "localhost"
-username = "root"
-password = "money-0429"
-dbname = 'nexTravel'
+username = ""
+password = ""
+dbname = ''
 
 mydb = mysql.connector.connect(
     host=host,
